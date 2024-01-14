@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace Proyecto_Final
 {
-    public class Venta
+    internal class Venta
     {
         private int _id;
         private string _comentarios;
         private int _idUsuario;
+
+        public Venta()
+        {
+
+        }
 
         public Venta(int id, string comentarios, int idusuario)
         {
