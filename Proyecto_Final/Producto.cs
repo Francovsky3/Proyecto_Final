@@ -15,6 +15,15 @@ namespace Proyecto_Final
         private int _stock;
         private int _idUsuario;
 
+        public Producto(int id, string descripcion, double costo, double precioVenta, int stock, int idUsuario)
+        {
+            this._id = id;
+            this._descripcion = descripcion;
+            this._costo = costo;
+            this._precioVenta = precioVenta;
+            this._stock = stock;
+            this._idUsuario = idUsuario;
+        }
         public int Id { get { return _id; } set { _id = value; } }
         public string Descripcion { get { return _descripcion; } set { _descripcion = value; } }
         public double Costo { get { return _costo; } set { _costo = value; } }
