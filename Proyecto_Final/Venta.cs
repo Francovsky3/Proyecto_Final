@@ -19,8 +19,8 @@ namespace Proyecto_Final
             this._idUsuario = idusuario;
         }
 
-        public int Id { get { return _id; } set { _id = value; } }
-        public string Comentarios { get { return _comentarios; } set { _comentarios = value; } }
-        public int IdUsuario { get { return _idUsuario; } set { _idUsuario = value; } }
+        public int id { get { return _id; } set { _id = value; } }
+        public string comentarios { get { return _comentarios; } set { _comentarios = value; } }
+        public int idUsuario { get { return _idUsuario; } set { _idUsuario = value; } }
     }
 }
