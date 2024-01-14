@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Proyecto_Final
 {
-    public class Usuario
+    internal class Usuario
     {
         private int _id;
         private string _nombre;
@@ -14,6 +14,11 @@ namespace Proyecto_Final
         private string _nombreUsuario;
         private string _contraseña;
         private string _mail;
+
+        public Usuario()
+        {
+            
+        }
 
         public Usuario(int id, string nombre, string apellido, string nombreUsuario, string contraseña, string mail)
         {
