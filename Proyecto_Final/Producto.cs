@@ -24,11 +24,11 @@ namespace Proyecto_Final
             this._stock = stock;
             this._idUsuario = idUsuario;
         }
-        public int Id { get { return _id; } set { _id = value; } }
-        public string Descripcion { get { return _descripcion; } set { _descripcion = value; } }
-        public double Costo { get { return _costo; } set { _costo = value; } }
-        public double PrecioVenta { get { return _precioVenta; } set { _precioVenta = value; } }
-        public int Stock { get { return _stock; } set { _stock = value; } }
-        public int IdUsuario { get { return _idUsuario; } set { _idUsuario = value; } }
+        public int id { get { return _id; } set { _id = value; } }
+        public string descripcion { get { return _descripcion; } set { _descripcion = value; } }
+        public double costo { get { return _costo; } set { _costo = value; } }
+        public double precioVenta { get { return _precioVenta; } set { _precioVenta = value; } }
+        public int stock { get { return _stock; } set { _stock = value; } }
+        public int idUsuario { get { return _idUsuario; } set { _idUsuario = value; } }
     }
 }
