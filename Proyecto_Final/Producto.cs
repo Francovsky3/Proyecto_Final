@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Proyecto_Final
 {
-    public class Producto
+    internal class Producto
     {
         private int _id;
         private string _descripcion;
@@ -14,6 +14,11 @@ namespace Proyecto_Final
         private double _precioVenta;
         private int _stock;
         private int _idUsuario;
+
+        public Producto()
+        {
+            
+        }
 
         public Producto(int id, string descripcion, double costo, double precioVenta, int stock, int idUsuario)
         {
