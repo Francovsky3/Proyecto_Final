@@ -21,9 +21,9 @@ namespace Proyecto_Final
             this._idVenta = idVenta;
         }
 
-        public int Id { get { return _id; } set { _id = value; } }
-        public int IdProducto { get { return _idProducto; } set { _idProducto = value; } }
-        public int Stock { get { return _stock; } set { _stock = value; } }
-        public int IdVenta { get { return _idVenta; } set { _idVenta = value; } }
+        public int id { get { return _id; } set { _id = value; } }
+        public int idProducto { get { return _idProducto; } set { _idProducto = value; } }
+        public int stock { get { return _stock; } set { _stock = value; } }
+        public int idVenta { get { return _idVenta; } set { _idVenta = value; } }
     }
 }
