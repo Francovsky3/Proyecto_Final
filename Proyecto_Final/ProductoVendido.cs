@@ -8,27 +8,27 @@ namespace Proyecto_Final
 {
     internal class ProductoVendido
     {
-        private int _id;
-        private int _idProducto;
-        private int _stock;
-        private int _idVenta;
+        private int _Id;
+        private int _IdProducto;
+        private int _Stock;
+        private int _IdVenta;
 
         public ProductoVendido()
         {
-            
+
         }
 
         public ProductoVendido(int id, int idProducto, int stock, int idVenta)
         {
-            this._id = id;
-            this._idProducto = idProducto;
-            this._stock = stock;
-            this._idVenta = idVenta;
+            this._Id = id;
+            this._IdProducto = idProducto;
+            this._Stock = stock;
+            this._IdVenta = idVenta;
         }
 
-        public int id { get { return _id; } set { _id = value; } }
-        public int idProducto { get { return _idProducto; } set { _idProducto = value; } }
-        public int stock { get { return _stock; } set { _stock = value; } }
-        public int idVenta { get { return _idVenta; } set { _idVenta = value; } }
+        public int Id { get { return _Id; } set { _Id = value; } }
+        public int IdProducto { get { return _IdProducto; } set { _IdProducto = value; } }
+        public int Stock { get { return _Stock; } set { _Stock = value; } }
+        public int IdVenta { get { return _IdVenta; } set { _IdVenta = value; } }
     }
 }

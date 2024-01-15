@@ -8,33 +8,33 @@ namespace Proyecto_Final
 {
     internal class Usuario
     {
-        private int _id;
-        private string _nombre;
-        private string _apellido;
-        private string _nombreUsuario;
-        private string _contraseña;
-        private string _mail;
+        private int _Id;
+        private string _Nombre;
+        private string _Apellido;
+        private string _NombreUsuario;
+        private string _Clave;
+        private string _Mail;
 
         public Usuario()
         {
             
         }
 
-        public Usuario(int id, string nombre, string apellido, string nombreUsuario, string contraseña, string mail)
+        public Usuario(int id, string nombre, string apellido, string nombreUsuario, string clave, string mail)
         {
-            this._id = id;
-            this._nombre = nombre;
-            this._apellido = apellido;
-            this._nombreUsuario = nombreUsuario;
-            this._contraseña = contraseña;
-            this._mail = mail;
+            this._Id = id;
+            this._Nombre = nombre;
+            this._Apellido = apellido;
+            this._NombreUsuario = nombreUsuario;
+            this._Clave = clave;
+            this._Mail = mail;
         }
 
-        public int id { get { return _id; } set { _id = value; } }
-        public string nombre { get { return _nombre; } set { _nombre = value; } }
-        public string apellido { get { return _apellido; } set { _apellido = value; } }
-        public string nombreUsuario { get { return _nombreUsuario; } set { _nombreUsuario = value; } }
-        public string contraseña { get { return _contraseña; } set { _contraseña = value; } }
-        public string mail { get { return _mail; } set { _mail = value; } }
+        public int Id { get { return _Id; } set { _Id = value; } }
+        public string Nombre { get { return _Nombre; } set { _Nombre = value; } }
+        public string Apellido { get { return _Apellido; } set { _Apellido = value; } }
+        public string NombreUsuario { get { return _NombreUsuario; } set { _NombreUsuario = value; } }
+        public string Contraseña { get { return _Clave; } set { _Clave = value; } }
+        public string Mail { get { return _Mail; } set { _Mail = value; } }
     }
 }

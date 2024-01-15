@@ -8,9 +8,9 @@ namespace Proyecto_Final
 {
     internal class Venta
     {
-        private int _id;
-        private string _comentarios;
-        private int _idUsuario;
+        private int _Id;
+        private string _Comentarios;
+        private int _IdUsuario;
 
         public Venta()
         {
@@ -19,13 +19,13 @@ namespace Proyecto_Final
 
         public Venta(int id, string comentarios, int idusuario)
         {
-            this._id = id;
-            this._comentarios = comentarios;
-            this._idUsuario = idusuario;
+            this._Id = id;
+            this._Comentarios = comentarios;
+            this._IdUsuario = idusuario;
         }
 
-        public int id { get { return _id; } set { _id = value; } }
-        public string comentarios { get { return _comentarios; } set { _comentarios = value; } }
-        public int idUsuario { get { return _idUsuario; } set { _idUsuario = value; } }
+        public int Id { get { return _Id; } set { _Id = value; } }
+        public string Comentarios { get { return _Comentarios; } set { _Comentarios = value; } }
+        public int IdUsuario { get { return _IdUsuario; } set { _IdUsuario = value; } }
     }
 }
